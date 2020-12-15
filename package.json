@@ -1,0 +1,23 @@
+{
+  "name": "output-static",
+  "version": "1.0.0",
+  "description": "Filter of static files requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/German-Stepanov/nodejs-output-static.git"
+  },
+  "keywords": [
+    "static",
+    "filter"
+  ],
+  "author": "German Stepanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/German-Stepanov/nodejs-output-static/issues"
+  },
+  "homepage": "https://github.com/German-Stepanov/nodejs-output-static#readme"
+}

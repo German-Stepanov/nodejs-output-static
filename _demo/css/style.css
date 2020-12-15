@@ -1,0 +1,8 @@
+/*Комментарий*/
+.title {
+	font-weight:bold;
+}
+.menu_item {
+	font-size: 18px;
+	text-decoration:none;
+}
