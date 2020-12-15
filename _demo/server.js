@@ -25,7 +25,7 @@ myConfig.static = {
 	isDebug			: true,
 };
 //Модуль фильтрации разрешенных статических ресурсов
-var static = require('../index.js')(myConfig.static);
+var static = require('output-static')(myConfig.static);
 //Модуль шаблонов 
 var output = require('output-view')(myConfig.output);
 
