@@ -1,6 +1,6 @@
 {
   "name": "output-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Filter of static files requests",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/German-Stepanov/nodejs-output-static/issues"
   },
-  "homepage": "https://github.com/German-Stepanov/nodejs-output-static#readme"
+  "homepage": "https://github.com/German-Stepanov/nodejs-output-static#readme",
+  "dependencies": {
+    "output-view": "^1.0.5"
+  }
 }
