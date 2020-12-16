@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo for output-static",
+  "main": "server.js",
+  "dependencies": {
+    "output-static-mime": "^1.0.1",
+    "output-view": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "node server"
+  },
+  "author": "",
+  "license": "ISC"
+}
