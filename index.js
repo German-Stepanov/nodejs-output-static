@@ -72,6 +72,7 @@ var Static = function (config) {
 			head['Accept-Ranges'] = 'bytes';
 			head['Content-Length']= (end-start)+1; //Размер части файла
 		}
+		if (start>end) end = start;
 		
 		res.writeHead(code, head);
 		require('fs').createReadStream('./' + file, {start:start, end:end}).pipe(res);
